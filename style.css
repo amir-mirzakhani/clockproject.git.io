@@ -1,0 +1,65 @@
+/* this is a style of clock for index.html */
+/* developer : amirreza_mirzakhani  instagram:amir-.kuala*/
+/* 
+fonts:poppins (from google fonts)
+*/
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif ;
+}
+body , .container , .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: #5487ff;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    width: 500px;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+}
+.container img{
+    margin: 10px 0px ;
+}
+.container h1{
+    font-size: 42px;
+}
+.container .content{
+    width: 100%;
+    justify-content: space-between;
+}
+.container .content.disable{
+    opacity: 0.5;
+    pointer-events: none;
+}
+.container .content .controls{
+    border: 1px solid #9198a3 ;
+    width: calc(100% /2 - 5px);
+    border-radius: 5px;
+    padding: 8px;
+}
+.content .controls select{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    font-size: 18px;
+}
+.container button{
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    background-color: #5487ff;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border:0;
+    outline: 0;
+}
